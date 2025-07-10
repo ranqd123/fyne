@@ -1,7 +1,13 @@
 package layout
 
-import "fyne.io/fyne/v2"
+import (
+	"fyne.io/fyne/v2"
+	"fyne.io/fyne/v2/internal/painter"
+)
 
+func ClearFontCache() {
+        painter.ClearFontCache()
+}
 // SpacerObject is any object that can be used to space out child objects
 type SpacerObject interface {
 	ExpandVertical() bool
