@@ -1,4 +1,4 @@
-module painter
+module github.com/ranqd123/fyne/v2/painter
 
 go 1.24.3
 
